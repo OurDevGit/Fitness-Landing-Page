@@ -1,0 +1,67 @@
+/*
+Theme Name: OnePress-child
+Author: FameThemes
+Description: This is child theme.
+Version: 1.0.0
+Template: OnePress
+Text Domain: onepress-child
+*/
+
+.page-header {
+	display: none !important;
+}
+
+#primary {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.elementor-element-b547b0e .elementor-column-wrap,
+.elementor-element-78af2c5 .elementor-column-wrap {
+	border-color: rgb(237,237,237) rgb(237,237,237) rgb(237,237,237) rgb(244,200,66) !important;
+}
+
+.elementor-element-cc6166b .elementor-column-wrap,
+.elementor-element-b211ba8 .elementor-column-wrap {
+	border-color: rgb(237,237,237) rgb(237,237,237) rgb(237,237,237) rgb(51,51,51) !important;
+}
+
+.site-title {
+	display: none !important;
+}
+
+.onepress-menu a {
+	text-transform: none !important;
+}
+
+.elementor-element-c5f8f86 .elementor-column-wrap {
+	border-color: rgb(237,237,237) rgb(237,237,237) rgb(237,237,237) rgb(221,221,221) !important;
+}
+
+.elementor-element-9d27482 .elementor-column-wrap,
+.elementor-element-b2f820c .elementor-column-wrap,
+.elementor-element-f86c675 .elementor-column-wrap,
+.elementor-element-997d78f .elementor-column-wrap,
+.elementor-element-3f9708a .elementor-column-wrap,
+.elementor-element-b028d05 .elementor-column-wrap,
+.elementor-element-8733e15 .elementor-column-wrap,
+.elementor-element-ecc52f1 .elementor-column-wrap, 
+.elementor-element-6e5d0d6 .elementor-column-wrap, 
+.elementor-element-59db52f .elementor-column-wrap, 
+.elementor-element-5d6c74d .elementor-column-wrap {
+	padding: 0 !important;
+}
+
+.entry-content {
+	margin-bottom: 0 !important;
+}
+
+.elementor-element-b547b0e:hover,
+.elementor-element-cc6166b:hover,
+.elementor-element-c5f8f86:hover,
+.elementor-element-78af2c5:hover,
+.elementor-element-b211ba8:hover {
+	transform: translatex(8px);
+	transition-duration: 0.3s;
+	transition-property:transform;
+}
